@@ -22,3 +22,10 @@ Then follow the install instructions for each fix below, as some hotfixes will r
 *Bug:* `System.FormatException: Unrecognized Guid format` fires from various areas of the code. Caused by invalid empty internal links. These look like a normal empty field in the content editor however when enabling 'raw values' you can see the value is `<link linktype="internal" />`. Can sometimes prevent pages from publishing including ancestors of the affected page.  
 *Install instructions:* None  
 *Additional info:* https://kb.sitecore.net/articles/771795
+
+
+## Hotfix 223855
+
+*Bug:* Extra rel="noopener noreferrer" substring is added to the markup when clicking Accept in RTE.
+*Install instructions:* None  
+*Additional info:* https://github.com/SitecoreSupport/Sitecore.Support.223855/releases
