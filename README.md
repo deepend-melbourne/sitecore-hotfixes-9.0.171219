@@ -26,6 +26,12 @@ Then follow the install instructions for each fix below, as some hotfixes will r
 
 ## Hotfix 223855
 
-*Bug:* Extra rel="noopener noreferrer" substring is added to the markup when clicking Accept in RTE.
+*Bug:* Extra rel="noopener noreferrer" substring is added to the markup when clicking Accept in RTE.  
 *Install instructions:* None  
 *Additional info:* https://github.com/SitecoreSupport/Sitecore.Support.223855/releases
+
+## Hotfix 197107
+
+*Bug:* `'Name' should consist only of letters, digits, dashes or underscore` Media items being programatically added to the media library fail if they contain certain characters.  
+*Install instructions:* None  
+*Additional info:* https://kb.sitecore.net/articles/843095
